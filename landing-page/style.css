@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* Header logo and links*/
+.header {
+    padding: 10px 100px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    font-size: x-large;
+    font-weight: bold;
+}
+.header-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.header-link {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+/* first part of webpage */
+.box1 {
+    display: flex;
+    color: white;
+    background-color: #1F2937;
+    padding: 130px;
+    justify-content: space-between;
+}
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-grow: 0.5;
+}
+.sign-up-title {
+    font-size: 50px;
+    font-weight: bolder;
+}
+.sign-up-content {
+    color: #E5E7EB;
+    font-size: 20px;
+    font-weight: 10;
+}
+.sign-up-button {
+    width: 90px;
+    height: 40px;
+    background-color: #3B82F6;
+    color: white;
+    border-radius: 10px;
+}
+.img {
+    background-color: #6D747D;
+    flex-grow: 3;
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* second part of webpage*/
+.box2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    align-items: center;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-title {
+    font-size: 35px;
+    font-weight: 800;
+}
+.info-boxes {
+    display: flex;
+    padding: 40px;
+    margin: 50px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+}
+.box {
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    border: 5px solid #3B82F6;
+}
+.info-text {
+    padding-top: 20px;
+    text-align: center;
+    color: #8E959D;
+}
+
+/* third part of webpage */
+.box3 {
+    background-color: #E5E7EB;
+    display: flex;
+}
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    padding: 180px 250px;
+}
+.quote {
+    font-size: 37px;
+    color: #1F2937;
+}
+.quote-author {
+    font-weight: bold;
+    font-size: 25px;
+    align-self: flex-end;
+    margin-right: 10px;
+}
+
+/* fourth part of webpage*/
+.box4 {
+    padding: 120px;
+    display: flex;
+}
+.sign-up-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 70px;
+    height: 120px;
+    flex-grow: 1;
+    background-color: #3B82F6;
+    color: white;
+    border-radius: 15px;
+}
+.sign-up-box-title {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sign-up-box-content {
+    font-size: 15px;
+    font-weight: 100;
+}
+.sign-up-button2 {
+    background-color: #3B82F6;
+    color: white;
+    width: 100px;
+    height: 35px;
+    font-size: 17px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+.sign-up-button2:hover {
+    background-color: #0061fc;
+    color: white;
+} 
+.copyright {
+    background-color: #1F2937;
+    color: white;
+    padding: 45px;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
